@@ -1,0 +1,39 @@
+.about {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.missionList {
+  display: flex;
+  padding: 0px 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.aboutHeader {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.founder {
+  display: flex;
+
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    flex-direction: column;
+  }
+  .founder {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .about {
+    flex-direction: column; 
+  }
+}

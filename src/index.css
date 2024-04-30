@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+  background-image: linear-gradient(to bottom right, #EFDDD8, #F1E4D9, #F9F6F3);
+  color: #333;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    text-align: center;
+  }
+}
+
+.slideIn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #333;
+  transform-origin: bottom;
+}
+
+.slideOut {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #333;
+  transform-origin: top;
+}

@@ -1,0 +1,39 @@
+.caseStudy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* padding: 20px;
+  margin: 20px;
+  width: 90%; */
+}
+.CScontainer {
+  width: 100%;
+}
+.caseStudyInfo {
+  width: 65%;
+  padding: 20px 0px;
+}
+.slider {
+  padding: 0px 20px;
+  margin: 0px 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .caseStudy {
+    flex-direction: column;
+  }
+  .caseStudyInfo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .slider{
+    padding: 10px 0px;
+
+  }
+}
