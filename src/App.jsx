@@ -21,11 +21,11 @@ function App() {
         <Navbar />
         <AnimatePresence mode="wait">
           <Routes>
-            <Route path="/RefreshedSolar" element={<HomePage />} />
-            <Route path="/About" element={<AboutPage />} />
-            <Route path="/ForHouses" element={<ForHousesPage />} />
-            <Route path="/ForBusinesses" element={<ForBusinessesPage />} />
-            <Route path="/Contact" element={<ContactPage />} />
+            <Route path="/Refreshed-Solar/" element={<HomePage />} />
+            <Route path="/Refreshed-Solar/About" element={<AboutPage />} />
+            <Route path="/Refreshed-Solar/ForHouses" element={<ForHousesPage />} />
+            <Route path="/Refreshed-Solar/ForBusinesses" element={<ForBusinessesPage />} />
+            <Route path="/Refreshed-Solar/Contact" element={<ContactPage />} />
           </Routes>
         </AnimatePresence>
       </Container>

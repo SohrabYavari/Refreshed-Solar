@@ -8,31 +8,31 @@ export const NAVBARLINKS = [
   {
     id: 1,
     navName: "Home",
-    navPathName: "RefreshedSolar",
+    navPathName: "/Refreshed-Solar/",
     navIcon: SolarPowerIcon,
   },
   {
     id: 2,
     navName: "About",
-    navPathName: "About",
+    navPathName: "/Refreshed-Solar/About",
     navIcon: InfoIcon,
   },
   {
     id: 3,
     navName: "For Houses",
-    navPathName: "ForHouses",
+    navPathName: "/Refreshed-Solar/ForHouses",
     navIcon: HomeIcon,
   },
   {
     id: 4,
     navName: "For Businesses",
-    navPathName: "ForBusinesses",
+    navPathName: "/Refreshed-Solar/ForBusinesses",
     navIcon: BusinessIcon,
   },
   {
     id: 5,
     navName: "Contact",
-    navPathName: "Contact",
+    navPathName: "/Refreshed-Solar/Contact",
     navIcon: CallIcon,
   },
 ];

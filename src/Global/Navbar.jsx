@@ -61,14 +61,11 @@ export default function Navbar() {
           }}
         >
           <Toolbar>
-            <Link to="/RefreshedSolar">
+            <Link to="/Refreshed-Solar/">
               <Button
                 sx={{
                   color: "text.light",
                   bgcolor: "secondary.second",
-                  // position: "fixed",
-                  // left: "10px",
-                  // top: "7.5px",
                 }}
               >
                 <span
