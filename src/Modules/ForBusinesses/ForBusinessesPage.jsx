@@ -120,7 +120,7 @@ export default function ForBusinessesPage() {
               color: "#fff",
             }}
             onClick={scrollToTop}
-            to="/Contact"
+            to="/Refreshed-Solar/Contact"
           >
             Contact Us
           </Link>

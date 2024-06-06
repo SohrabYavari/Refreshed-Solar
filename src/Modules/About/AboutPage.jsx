@@ -114,7 +114,7 @@ export default function AboutPage() {
                 color: "#fff",
               }}
               onClick={scrollToTop}
-              to="/Contact"
+              to="/Refreshed-Solar/Contact"
             >
               Contact Us
             </Link>
